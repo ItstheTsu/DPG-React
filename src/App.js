@@ -12,8 +12,6 @@ import styles from "./Components/Styles/Header Style/Header.module.css";
 
 import imagem from "./Images/logo.png";
 
-
-
 import {
   BrowserRouter as Router,
   Route,
