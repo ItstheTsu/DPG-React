@@ -22,7 +22,6 @@ import BgMain from '../../Images/Assets/Banners/fundoEldenRing.jpg';
 
 function EldenRing(props) {
   useState(BgMain);
-  useState(BgMain);
 
   useEffect(() => {
     document.body.style.backgroundImage = `url(${BgMain})`;

@@ -1,4 +1,3 @@
-import "./App.css";
 import Content from "./Components/Content";
 import Library from "./Components/Library-Main";
 import Settings from "./Components/Settings";
@@ -12,6 +11,8 @@ import ForzaHorizon from "./Components/Library/Forza-Horizon-5";
 import styles from "./Components/Styles/Header Style/Header.module.css";
 
 import imagem from "./Images/logo.png";
+
+
 
 import {
   BrowserRouter as Router,
@@ -48,7 +49,7 @@ function App() {
       <ReactRoutes>
         <Route exact path="/" element={<Content />}></Route>
         <Route exact path="/Library" element={<Library />}></Route>
-        <Route exact path="/Settings" element={<Settings />}></Route>
+        <Route exact path="/Settings" element={<Settings namePerfil='Allan' idade='16' gameCounter='6'/>}></Route>
 
         <Route path="/Library/Elden-Ring" element={<EldenRing />}></Route>
         <Route path="/Library/Fortnite" element={<Fortnite />}></Route>
